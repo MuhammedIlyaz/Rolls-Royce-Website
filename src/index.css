@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #151515;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+
+/* Large tablet */
+@media screen and (max-width: 1200px) {
+  #root {
+    padding: 0 30px;
+  }
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0 20px;
+  }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 0 12px;
+  }
+}

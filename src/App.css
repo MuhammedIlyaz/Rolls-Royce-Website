@@ -1,0 +1,306 @@
+
+/* =========================
+   FONTS
+========================= */
+
+@font-face {
+  font-family: "Riviera Nights";
+  src: url("./assets/fonts/RivieraNightsTrial-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Riviera Nights";
+  src: url("./assets/fonts/RivieraNightsTrial-Ultralight.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #050505;
+  color: #ffffff;
+  font-family: "Riviera Nights", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+#hero {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  position: relative;
+
+  width: 100%;
+  height: 90vh;
+  min-height: 560px;
+  max-height: 950px;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.50),
+      rgba(0, 0, 0, 0.20)
+    ),
+    url("https://i.pinimg.com/1200x/3e/0a/d4/3e0ad4bda503539b4f55917bfe7034cb.jpg");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 24px 40px;
+
+  text-align: center;
+  z-index: 1;
+}
+
+#hero-head {
+  margin: 0 0 20px;
+
+  font-size: clamp(2.3rem, 6vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+/* Hero Button */ 
+.hero-text button {
+ display: inline-block;
+ border-radius: 50px;
+ background-color: #ebebeb;
+ border: none;
+ color: black;
+ text-align: center;
+ font-size: clamp(0.6rem , 5vw , 0.9rem);
+ padding: 12px;
+ width: 220px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 10px;
+ font-weight: 400;
+ letter-spacing: 0.06em;
+}
+
+.hero-text button span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+.hero-text button span:after {
+ content: '⤏';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+.hero-text button:hover span {
+ padding-right: 15px;
+}
+
+.hero-text button:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+
+
+/* =========================
+   SIDE MENU
+========================= */
+
+.Links {
+  display: flex;
+  flex-direction: column;
+
+  width: min(420px, calc(100% - 48px));
+ 
+
+  margin: 120px 40px 40px auto;
+  padding: 0;
+}
+
+
+.Links span {
+  display: block;
+
+  text-align: right;
+  
+
+  color: #a1a5aa;
+
+  font-size: 1.2rem;
+  line-height: 3.8rem;
+
+  transition: color 0.25s ease;
+}
+
+.Links span:hover {
+  color: #ffffff;
+}
+
+
+.Models-Menu{
+  display: flex;
+  flex-direction: column;
+   margin: 55px 40px 40px auto;
+  padding: 0;
+
+}
+
+.Models-Menu  span{
+  display: block;
+
+  text-align: right;
+  
+
+  color: #a1a5aa;
+
+  font-size: 1.2rem;
+  line-height: 3.8rem;
+
+  transition: color 0.25s ease;
+
+}
+
+.Models-Menu  span:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   LARGE DESKTOP
+   MAX 1400PX
+========================= */
+
+
+
+/* =========================
+   LAPTOP / LARGE TABLET
+   MAX 1200PX
+========================= */
+
+
+
+/* =========================
+   TABLET
+   MAX 768PX
+========================= */
+
+
+
+/* =========================
+   MOBILE
+   MAX 480PX
+========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+       
+
+
+
+
