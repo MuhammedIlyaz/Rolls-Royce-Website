@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Image01 from "../assets/image/ProveCourosal/car01.jpg";
+import Image01 from "../assets/image/ProveCourosal/Car01.jpg";
 import Image02 from "../assets/image/ProveCourosal/Car02.jpg";
 import Image03 from "../assets/image/ProveCourosal/Car_03.jpg";
 import Image04 from "../assets/image/ProveCourosal/Car04.jpg";
