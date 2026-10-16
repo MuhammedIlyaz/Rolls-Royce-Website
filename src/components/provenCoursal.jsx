@@ -1,10 +1,10 @@
 import React from "react";
-import { useState} from "react";
-import Image01 from "/src/assets/image/ProveCourosal/car01.jpg";
-import Image02 from "/src/assets/image/ProveCourosal/Car02.jpg";
-import Image03 from "/src/assets/image/ProveCourosal/Car_03.jpg";
-import Image04 from "/src/assets/image/ProveCourosal/Car04.jpg";
-import Image05 from "/src/assets/image/ProveCourosal/Car05.jpg";
+import { useState } from "react";
+import Image01 from "../assets/image/ProveCourosal/car01.jpg";
+import Image02 from "../assets/image/ProveCourosal/Car02.jpg";
+import Image03 from "../assets/image/ProveCourosal/Car_03.jpg";
+import Image04 from "../assets/image/ProveCourosal/Car04.jpg";
+import Image05 from "../assets/image/ProveCourosal/Car05.jpg";
 
 const provenCoursal = () => {
   const [courosal, setCourosal] = useState(1);
@@ -12,10 +12,11 @@ const provenCoursal = () => {
   const Cars = [
     {
       index: 0,
-      Image:  Image01, 
-       alt: "car 01",
+      Image: Image01,
+      alt: "car 01",
       head: "Rolls-Royce Ghost",
-      Explain: "A high-tech, sophisticated ultra-luxury sedan with a minimalist design philosophy."
+      Explain:
+        "A high-tech, sophisticated ultra-luxury sedan with a minimalist design philosophy.",
     },
 
     {
@@ -23,35 +24,37 @@ const provenCoursal = () => {
       Image: Image02,
       alt: "car 02",
       head: "Rolls-Royce Cullinan",
-      Explain: "A highly capable, all-terrain ultra-luxury SUV with a legendary smooth ride."
+      Explain:
+        "A highly capable, all-terrain ultra-luxury SUV with a legendary smooth ride.",
     },
 
     {
       index: 2,
-      Image:Image03,
+      Image: Image03,
       alt: "car 03",
       head: "Rolls-Royce Spectre",
-      Explain: "An all-electric ultra-luxury super coupé for silent, effortless motoring."
+      Explain:
+        "An all-electric ultra-luxury super coupé for silent, effortless motoring.",
     },
 
     {
       index: 3,
-      Image: Image04 ,
+      Image: Image04,
       alt: "car 04",
       head: "Rolls-Royce Dawn",
-      Explain: "An open-air, four-seat convertible offering sophisticated and uncompromised opulence."
+      Explain:
+        "An open-air, four-seat convertible offering sophisticated and uncompromised opulence.",
     },
 
     {
       index: 4,
-      Image: Image05 ,
+      Image: Image05,
       alt: "car 05",
       head: "Rolls-Royce Boat Tail",
-      Explain: "Ultra-exclusive, coachbuilt masterpiece, handcrafted for a single client."
+      Explain:
+        "Ultra-exclusive, coachbuilt masterpiece, handcrafted for a single client.",
     },
   ];
-
-
 
   return (
     <section id="proveCoursal">
